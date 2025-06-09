@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Imagens</title>
+    <style>
+        .tabela-imagens {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Ajusta o número de imagens por linha de acordo com o tamanho da tela */
+            grid-gap: 10px; /* Distância horizontal entre as imagens */
+            margin: 40px auto; /* Distância vertical e centraliza a tabela */
+            padding: 10px;
+            max-width: 100%; /* Garante que a tabela não ultrapasse a largura da tela */
+            box-sizing: border-box; /* Garante que o padding seja considerado no cálculo da largura total */
+        }
+
+        .tabela-imagens img {
+            width: 500px;  /* Largura fixa das imagens */
+            height: 500px; /* Altura fixa das imagens */
+            object-fit: cover; /* Garante que as imagens mantenham a proporção e cortem o excesso se necessário */
+            border: 1px solid #ccc; /* Apenas para dar um estilo */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+        }
+
+        .tabela-imagens img:hover {
+            transform: scale(1.1); /* Aumenta a imagem quando o mouse passa por cima */
+            box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5); /* Luz azul suave ao redor da imagem */
+        }
+    </style>
+</head>
+<body>
+    <div class="tabela-imagens">
+        <!-- Imagens com o arquivo i606944.webp -->
+        <img src="i606944.webp" alt="Imagem 1">
+        <img src="i606944.webp" alt="Imagem 2">
+        <img src="i606944.webp" alt="Imagem 3">
+        <img src="i606944.webp" alt="Imagem 4">
+        <img src="i606944.webp" alt="Imagem 5">
+        <img src="i606944.webp" alt="Imagem 6">
+        <img src="i606944.webp" alt="Imagem 7">
+        <img src="i606944.webp" alt="Imagem 8">
+        <img src="i606944.webp" alt="Imagem 9">
+        <img src="i606944.webp" alt="Imagem 10">
+        <img src="i606944.webp" alt="Imagem 11">
+        <img src="i606944.webp" alt="Imagem 12">
+        <img src="i606944.webp" alt="Imagem 13">
+        <img src="i606944.webp" alt="Imagem 14">
+        <img src="i606944.webp" alt="Imagem 15">
+        <img src="i606944.webp" alt="Imagem 16">
+        <img src="i606944.webp" alt="Imagem 17">
+        <img src="i606944.webp" alt="Imagem 18">
+        <img src="i606944.webp" alt="Imagem 19">
+        <img src="i606944.webp" alt="Imagem 20">
+        <img src="i606944.webp" alt="Imagem 21">
+        <img src="i606944.webp" alt="Imagem 22">
+        <img src="i606944.webp" alt="Imagem 23">
+        <img src="i606944.webp" alt="Imagem 24">
+        <img src="i606944.webp" alt="Imagem 25">
+    </div>
+</body>
+</html>
